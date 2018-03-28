@@ -15,6 +15,28 @@ def opcaoUsuarios():
 def opcaoConfiguracoes():
 	pyautogui.moveTo(100, 105); pyautogui.click()
 
+def opcaoCancelamento():
+	pyautogui.moveTo(100, 135); pyautogui.click() 
+
+def opcaoManuCadastro():
+	pyautogui.moveTo(100, 155); pyautogui.click() 
+
+def opcaoUtilitarios():
+	pyautogui.moveTo(100, 180); pyautogui.click()
+
+def opcaoLogoff():
+	pyautogui.moveTo(100, 200); pyautogui.click()
+
+def opcaoBloqEstacao():
+	pyautogui.moveTo(100, 235); pyautogui.click()
+
+def opcaoDesenvolvimento():
+	pyautogui.moveTo(100, 245); pyautogui.click()
+
+def opcaoSair():
+	pyautogui.moveTo(100, 290); pyautogui.click()
+
+
 # Competencia
 menuArquivo()
 pyautogui.moveTo(100, 55); pyautogui.click()
