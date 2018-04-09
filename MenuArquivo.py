@@ -1,6 +1,6 @@
-import pyautogui 
-
 # Testes de Validacao das Telas do menu Arquivo, para a Release 5.0.0.0 do Sistema ARH
+
+import pyautogui 
 
 # Funcao para sumular clique do mouse
 def clique():
@@ -8,7 +8,7 @@ def clique():
 
 # Funcao para percorrer o Menu Arquivo 
 def menuArquivo():
-	pyautogui.moveTo(60, 30); clique()
+	pyautogui.moveTo(35, 25); clique()
 
 # Funcao para fechar a tela pelo botão Esc
 def fecharTela():
@@ -227,14 +227,6 @@ fecharTela()
 opcaoUtilitarios()
 pyautogui.moveTo(380, 290); clique()
 pyautogui.moveTo(540, 100); pyautogui.click()
-
-# Desenvolvimento
-def opcaoDesenvolvimento():
-	menuArquivo()
-	pyautogui.moveTo(100, 245); pyautogui.click()
-	pyautogui.moveTo(335, 245); clique()
-	opcaoDesenvolvimento()
-	fecharTela()
 
 # LogOff do Sistema
 def opcaoLogoff():
