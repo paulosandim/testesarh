@@ -1,4 +1,4 @@
-# Testes de Validacao das Telas, para a Release 5.0.0.0 do Sistema ARH
+# Testes de Validacao das Telas do Sistema ARH
 
 import pyautogui 
 import MenuArquivo

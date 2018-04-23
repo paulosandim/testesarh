@@ -1,8 +1,8 @@
-# Testes de Validacao das Telas do menu Arquivo, para a Release 5.0.0.0 do Sistema ARH
+# Testes de Validacao das Telas do menu Arquivo
 
 import pyautogui 
 
-# Funcao para sumular clique do mouse
+# Funcao para simular clique do mouse
 def clique():
 	pyautogui.click(interval=1)
 
