@@ -1,4 +1,4 @@
-# Teste
+# Teste Sistema ARH
 Como utilizamos sistemas legados feitos em delphi, são poucas as ferramentas no mercado para automatizar testes em aplicações desktop (e as poucas que existem são pagas e fora do nosso orçamento). 
 
 Como não queria ficar repetindo o teste no menu arquivo em toda nova versão, resolvi criar alguns scripts em Python 3 utilizando PyAutoGUI, para testar o menu mais usado do sistema de recursos humanos. Apesar de básico, o teste poupa bastante tempo!
